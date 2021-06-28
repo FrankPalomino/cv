@@ -1,108 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+
 body {
-    background-color: black;
-    font-family: Calibri;
+    background-color: gray;
 }
 
 #todo {
-    width: 1000px;
-    height: 1100px;
-    background-color: #009ddc;
+    background-color: white;
+    width: 210mm;
+    height: 297mm;
     margin: auto;
-    position: relative;
 }
 
-header {
-    background-color: #009ddc;
-    color: white;
-    width: 300px;
-    text-align: center;
+p, li {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*Esta parte es la de la izquierda */
+
+#principal {
+    width: 54%;
+    display: inline-block;
+    margin: 30px 10px 30px 60px;
 }
 
 h1 {
-    font-size: 24px;
-}
-
-img {
-    border-radius: 100px;
-    height: 200px;
-    width: 200px;
-    margin-top: 70px;
-}
-
-main {
-    width: 700px;
-    height: 1100px;
-    background-color: white;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-}
-
-span {
-    width: 20px;
-    height: 20px;
-}
-
-span img {
-    border-radius: 0px;
-    height: auto;
-    width: auto;
-    margin: 0px 5px 0px 0px;
-    padding-top: 5px;
-    position: relative;
-    top: 1px;
-}
-
-section {
-    margin: 40px;
-}
-
-main h2 {
-    color: #009ddc;
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 1.17em;
+    font-weight: 100;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 h3 {
-    margin: 5px 0px;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+}
+
+header {
+    border: 4px solid #F79646;
+    border-radius: 24px;
+    margin-bottom: 40px;
+}
+
+#cabecero {
+    text-align: center;
+    padding: 25px 40px;
+    border: 2px solid #F79646;
+    margin: 1px;
+    border-radius: 20px;
+}
+
+span~p {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+span {
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 li {
-    margin-left: -20px;
+    margin-left: 17px;
 }
 
-p {
-    margin: 5px 0px;
-}
+/*Esta parte es la de la derecha */
 
-div {
-    position: relative;
-}
-
-#conocimientos {
+aside {
+    width: 250px;
     position: absolute;
-    right: 150px;
-    top: 0px;
-    margin-top: 0px;
+    display: inline-block;
+    border: 4px solid orange;
+    margin: 30px 10px;
+    border-radius: 24px;
 }
 
-#conocimientos h2 {
-    margin-top: 0px;
-}
-
-footer {
-    background-color: #009ddc;
-    color: white;
-    width: 300px;
-    text-align: left;
-}
-
-footer h4 {
+figure {
+    border:1px solid black;
+    width: 150px;
+    height: 200px;
+    margin: auto;
     text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
-footer section {
-    border-top: 2px solid white;
+figure img {
+    width: 133%;
+    position: relative;
+    right: 25px;
+    
+}
+
+aside div {
+    background-color: orange;
+    margin: 2px;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+aside h3 {
+    color: white;
+    margin: 10px 0px;
+}
+
+aside p {
+    padding: 5px 0px;
 }
